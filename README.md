@@ -1,5 +1,3 @@
-Voici le fichier `README.md` avec un affichage personnalisé et prêt à être copié-collé dans votre projet. J'ai ajouté des éléments de mise en forme Markdown pour améliorer l'affichage sur GitHub ou d'autres plateformes.
-
 ---
 
 ```markdown
