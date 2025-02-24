@@ -6,5 +6,12 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <!-- Enable component scanning for annotations -->
     <context:component-scan base-package="dao,metier"/>
+
+    <!-- Define beans manually (optional) -->
+    <bean id="dao" class="dao.DaoImpl"/>
+    <bean id="metier" class="metier.MetierImpl">
+        <property name="dao" ref="dao"/>
+    </bean>
 </beans>
