@@ -1,5 +1,5 @@
 package dao;
 
-public interface idao {
+public interface IDao {
     public double getData();
 }
